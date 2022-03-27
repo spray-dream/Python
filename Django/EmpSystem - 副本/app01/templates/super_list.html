@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+    <div style="margin-bottom: 10px" class="clearfix">
+        <a class="btn btn-success" href="/super_add/">
+            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            新建账号
+        </a>
+        <div style="float: right;width: 300px;">
+            <form method="GET">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="搜索" name="q" value="{{ value }}">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+            高级账号列表
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>号码</th>
+                    <th>级别</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in queryset %}
+                <tr>
+                    <td>{{ i.id }}</td>
+                    <td>{{ i.mobile }}</td>
+                    <td>{{ i.get_level_display }}</td>
+                    <td>{{ i.get_status_display }}</td>
+                    <td>
+                        <a class="btn btn-danger btn-xs" href="/super_del/{{ i.id }}">删除</a>
+                        <a class="btn btn-primary btn-xs" href="/super_edit/{{ i.id }}">编辑</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+        <div class="clearfix">
+            <ul class="pagination">
+                {{ page_string }}
+            </ul>
+        </div>
+</div>
+{% endblock %}

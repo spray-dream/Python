@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container">
+    <div style="margin-bottom: 10px">
+<!--        <a class="btn btn-success" href="/user_add_1/">-->
+<!--            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>-->
+<!--            新建用户_1-->
+<!--        </a>-->
+        <a class="btn btn-success" href="/user_add/">
+            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            新建用户
+        </a>
+    </div>
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">
+            <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+            用户列表
+        </div>
+        <!-- Table -->
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>姓名</th>
+                    <th>密码</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                    <th>工资</th>
+                    <th>入职时间</th>
+                    <th>所属部门</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in queryset %}
+                <tr>
+                    <td>{{ i.id }}</td>
+                    <td>{{ i.name }}</td>
+                    <td>{{ i.password}}</td>
+                    <td>{{ i.get_sex_display }}</td>
+                    <td>{{ i.age }}</td>
+                    <td>{{ i.money }}</td>
+                    <td>{{ i.create_time|date:'Y-m-d' }}</td>
+                    <td>{{ i.dept.title }}</td>
+                    <td>
+                        <a class="btn btn-danger btn-xs" href="/user_del/{{ i.id }}">删除</a>
+                        <a class="btn btn-primary btn-xs" href="/user_edit/{{ i.id }}">编辑</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <ul class="pagination">
+        {{ page_string }}
+    </ul>
+</div>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>引入文件加载</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/1.css"/> -->
+
+<!--    <link rel="stylesheet" href="{% static ' ' %}">-->
+</head>
+<body>
+        <!-- 引入动态文件加载 -->
+
+    <!-- <img src="/static/img/28062571_p0.jpg" alt=""> -->    <!-- 不推荐这种写法 -->
+    <img src="{% static 'img/28062571_p0.jpg' %}" alt="图片消失" width="200">
+
+<!--    <script src="{% static 'js/文件名或js文件夹下的路径' %}"></script>-->
+<!--    <script src="{% static 'CSS/' %}"></script>-->
+
+    <input type="text" class="btn btn-primary" value="新建">
+
+</body>
+</html>

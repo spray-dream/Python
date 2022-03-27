@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    
+    <input type="button" class="btn btn-primary" value="点我" onclick="clickMe()" />
+
+</div>
+{% endblock %}
+
+{% block js %}
+    <!-- 发送一个get请求/task_list/?n1=123&n2=456,成功之后在控制台返回res -->
+<!--    <script type="text/javascript">-->
+<!--        function clickMe() {-->
+<!--            $.ajax({-->
+<!--                url: '/task_ajax/',-->
+<!--                type: "get",-->
+<!--                data: {-->
+<!--                    n1: 123,-->
+<!--                    n2: 456-->
+<!--                },-->
+<!--                success: function (res) {-->
+<!--                    console.log(res);-->
+<!--                }-->
+<!--            })-->
+<!--        }-->
+<!--    </script>-->
+{% endblock %}

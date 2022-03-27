@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板语法</title>
+</head>
+<body>
+    {% for i in list %}
+    <span>{{ i }}</span>
+    {% endfor %}
+
+    <div>
+        {{ str }}
+        {{ int }}
+        {{ list }}
+        {{ dict }}
+        {{ tuple }}
+        {{ set }}
+        {{ bool }}
+        {{ float }}
+
+        {% for i in list2 %}
+        <p>{{ i.name }} {{ i.age }}</p>
+        {% endfor %}
+
+        r1:{{ r1 }}
+        r2:{{ r2 }}
+        r3:{{ r3 }}
+    </div>
+</body>
+</html>
