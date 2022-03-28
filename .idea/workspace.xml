@@ -7,18 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19c94f20-d4d0-40b1-9125-94b0fa8bbc89" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Py.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/spray_dream.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="19c94f20-d4d0-40b1-9125-94b0fa8bbc89" name="Default Changelist" comment="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -65,12 +56,15 @@
     <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="1vITE5O6NR0nVtCtDcPTDQLa4Wj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -85,7 +79,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -287,10 +281,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.001-数组对象" />
-      <item itemvalue="Python.008-单链表" />
       <item itemvalue="Python.002-ndarray对象属性操作" />
       <item itemvalue="Python.003-数据类型" />
       <item itemvalue="Python.004-数组中存储日期类型" />
+      <item itemvalue="Python.008-单链表" />
     </list>
     <recent_temporary>
       <list>
@@ -348,8 +342,15 @@
       <workItem from="1648367984396" duration="6431000" />
       <workItem from="1648374882524" duration="10000" />
       <workItem from="1648375228039" duration="922000" />
-      <workItem from="1648377328505" duration="9348000" />
-      <workItem from="1648392075177" duration="24000" />
+      <workItem from="1648377328505" duration="9020000" />
+      <workItem from="1648393874095" duration="1755000" />
+      <workItem from="1648395750298" duration="1000" />
+      <workItem from="1648395776207" duration="793000" />
+      <workItem from="1648396597236" duration="173000" />
+      <workItem from="1648396789174" duration="598000" />
+      <workItem from="1648397728238" duration="709000" />
+      <workItem from="1648398663812" duration="5550000" />
+      <workItem from="1648434216240" duration="942000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1648378627632</created>
@@ -387,20 +388,34 @@
       <updated>1648391586042</updated>
     </task>
     <task id="LOCAL-00006" summary="Default Changelist">
-      <created>1648391916469</created>
+      <created>1648393896933</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1648391916469</updated>
+      <updated>1648393896933</updated>
     </task>
     <task id="LOCAL-00007" summary="Default Changelist">
-      <created>1648391923576</created>
+      <created>1648394331260</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1648391923576</updated>
+      <updated>1648394331260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1648431941032</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648431941032</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1648431977041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648431977041</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,12 +427,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -476,11 +496,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/Django/EmpSystem" />
     </ignored-roots>
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/spray-dream/Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/spray-dream/Python" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

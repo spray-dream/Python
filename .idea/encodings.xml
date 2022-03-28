@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/MySQL/笔记纯文本格式.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/代码/模块与包/001-模块.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/代码/模块与包/002-自定义模块.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/代码/模块与包/003-包.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/代码/模块与包/My.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/代码/模块与包/package/__init__.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/代码/模块与包/package/a.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/代码/模块与包/package/b.py" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
