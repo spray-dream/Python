@@ -1,0 +1,433 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>模拟手势 · HTTP和数据库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex-toc/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="07-案例.html" />
+    
+    
+    <link rel="prev" href="05-basic.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    introduction 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="00.target.html">
+            
+                <a href="00.target.html">
+            
+                    
+                    Appium
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="01-introduce.html">
+            
+                <a href="01-introduce.html">
+            
+                    
+                    移动测试介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="02-environment.html">
+            
+                <a href="02-environment.html">
+            
+                    
+                    环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="03-adb.html">
+            
+                <a href="03-adb.html">
+            
+                    
+                    adb的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="04-appium1.html">
+            
+                <a href="04-appium1.html">
+            
+                    
+                    入门案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="05-basic.html">
+            
+                <a href="05-basic.html">
+            
+                    
+                    基础操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="06-模拟手势.html">
+            
+                <a href="06-模拟手势.html">
+            
+                    
+                    模拟手势
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="07-案例.html">
+            
+                <a href="07-案例.html">
+            
+                    
+                    综合案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="08-其他操作.html">
+            
+                <a href="08-其他操作.html">
+            
+                    
+                    其他操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >模拟手势</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x79FB;&#x52A8;&#x6D4B;&#x8BD5;"><b> </b>&#x79FB;&#x52A8;&#x6D4B;&#x8BD5;</a></li><ul><li><span class="title-icon "></span><a href="#&#x5B89;&#x5353;&#x5185;&#x5728;&#x673A;&#x5236;"><b>1. </b>&#x5B89;&#x5353;&#x5185;&#x5728;&#x673A;&#x5236;</a></li><li><span class="title-icon "></span><a href="#&#x6EDA;&#x52A8;"><b>2. </b>&#x6EDA;&#x52A8;</a></li><li><span class="title-icon "></span><a href="#&#x62D6;&#x62FD;"><b>3. </b>&#x62D6;&#x62FD;</a></li><li><span class="title-icon "></span><a href="#touchaction"><b>4. </b>TouchAction</a></li></ul></ul></div><a href="#&#x79FB;&#x52A8;&#x6D4B;&#x8BD5;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x79FB;&#x52A8;&#x6D4B;&#x8BD5;"><a name="&#x79FB;&#x52A8;&#x6D4B;&#x8BD5;" class="anchor-navigation-ex-anchor" href="#&#x79FB;&#x52A8;&#x6D4B;&#x8BD5;"><i class="fa fa-link" aria-hidden="true"></i></a> &#x79FB;&#x52A8;&#x6D4B;&#x8BD5;</h1>
+<h2 id="&#x5B89;&#x5353;&#x5185;&#x5728;&#x673A;&#x5236;"><a name="&#x5B89;&#x5353;&#x5185;&#x5728;&#x673A;&#x5236;" class="anchor-navigation-ex-anchor" href="#&#x5B89;&#x5353;&#x5185;&#x5728;&#x673A;&#x5236;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x5B89;&#x5353;&#x5185;&#x5728;&#x673A;&#x5236;</h2>
+<ol>
+<li>&#x5BF9;&#x4E8E;&#x76EE;&#x524D;&#x4E0D;&#x9700;&#x8981;&#x5728;&#x5C4F;&#x5E55;&#x4E2D;&#x663E;&#x793A;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x662F;&#x4E0D;&#x5904;&#x7406;&#x7684;&#xFF0C;&#x4E3A;&#x4E86;&#x8282;&#x7701;&#x786C;&#x4EF6;&#x8D44;&#x6E90;</li>
+<li>&#x5B89;&#x5353;&#x4F7F;&#x7528;&#x4E86;&#x6808;&#x7684;&#x65B9;&#x5F0F;&#x7BA1;&#x7406;&#x754C;&#x9762;</li>
+<li>&#x9875;&#x9762;&#x6ED1;&#x52A8;&#x6709;&quot;&#x60EF;&#x6027;&quot;&#x673A;&#x5236;&#xFF0C;&#x4F1A;&#x6839;&#x636E;&#x6309;&#x4E0B;&#x3001;&#x62AC;&#x8D77;&#x7684;&#x4F4D;&#x7F6E;  &#x4EE5;&#x53CA; &#x603B;&#x7684;&#x65F6;&#x95F4;&#xFF0C; &#x6EDA;&#x52A8;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x8DDD;&#x79BB;</li>
+</ol>
+<h2 id="&#x6EDA;&#x52A8;"><a name="&#x6EDA;&#x52A8;" class="anchor-navigation-ex-anchor" href="#&#x6EDA;&#x52A8;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x6EDA;&#x52A8;</h2>
+<pre><code class="lang-python">swipe(self, start_x: int, start_y: int, end_x: int, end_y: int, duration: int = <span class="hljs-number">0</span>)
+</code></pre>
+<p>&#x6CE8;&#x610F; duration &#x9ED8;&#x8BA4;&#x662F;600  &#x5355;&#x4F4D;&#x662F;&#x6BEB;&#x79D2;</p>
+<p>&#x5B83;&#x4F1A;&#x5F71;&#x54CD;&#x5B9E;&#x9645;&#x6EDA;&#x52A8;&#x7684;&#x8DDD;&#x79BB;</p>
+<p>&#x8FD8;&#x9700;&#x8981;&#x6CE8;&#x610F;&#xFF1A; click&#x65B9;&#x6CD5;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x5E76;&#x4E0D;&#x662F;&#x70B9;&#x5143;&#x7D20;&#xFF0C;&#x800C;&#x662F;&#x70B9;&#x5143;&#x7D20;&#x6240;&#x5728;&#x4F4D;&#x7F6E;&#x3002; &#x5728;&#x83B7;&#x53D6;&#x7684;&#x65F6;&#x5019;&#x6709;&#x4F4D;&#x7F6E;&#xFF0C;&#x4F46;&#x53EF;&#x4EE5;&#x7ECF;&#x8FC7;&#x6ED1;&#x52A8;&#xFF0C;&#x4F4D;&#x7F6E;&#x53D1;&#x751F;&#x4E86;&#x53D8;&#x5316;&#xFF0C;&#x53EF;&#x80FD;&#x70B9;&#x4E0D;&#x51C6;&#x3002;&#x975E;&#x5E38;&#x6709;&#x53EF;&#x80FD;&#x5728;&#x70B9;&#x51FB;&#x4E4B;&#x524D;&#x7761;&#x4E00;&#x4F1A;&#xFF0C;&#x7B49;&#x5F85;&#x6ED1;&#x52A8;&#x7ED3;&#x675F;&#x3002;</p>
+<pre><code class="lang-python">scroll( origin_el, destination_el, duration)
+</code></pre>
+<p>scroll &#x76F4;&#x63A5;&#x4F20;&#x9012;&#x5143;&#x7D20;&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x5373;&#x53EF;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x624B;&#x52A8;&#x83B7;&#x53D6;&#x4F4D;&#x7F6E;</p>
+<p>scroll &#x5E95;&#x5C42;&#x5B9E;&#x73B0; &#x6709;swipe&#x6709;&#x4E00;&#x4E9B;&#x533A;&#x522B;&#xFF0C;&#x6CA1;&#x6709;&#x4E2D;&#x95F4;&#x7684;&#x91C7;&#x6837;&#x70B9; &#xFF0C;&#x53EA;&#x6709;&#x8D77;&#x59CB;&#x3001;&#x7ED3;&#x675F;&#xFF0C;&#x4F46;&#x6700;&#x7EC8;&#x7684;&#x6548;&#x679C;&#x548C;swipe&#x662F;&#x4E00;&#x6837;&#x7684;</p>
+<h2 id="&#x62D6;&#x62FD;"><a name="&#x62D6;&#x62FD;" class="anchor-navigation-ex-anchor" href="#&#x62D6;&#x62FD;"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x62D6;&#x62FD;</h2>
+<p>&#x5728;&#x5B89;&#x5353;&#x4E2D;&#xFF0C;&#x62D6;&#x62FD; =  &#x6309;&#x4E0B; &#x7B49;&#x5F85;&#x4E00;&#x5B9A;&#x65F6;&#x95F4;  &#x79FB;&#x52A8;   &#x677E;&#x624B;</p>
+<pre><code class="lang-python">drag_and_drop(origin_el, destination_el)
+</code></pre>
+<h2 id="touchaction"><a name="touchaction" class="anchor-navigation-ex-anchor" href="#touchaction"><i class="fa fa-link" aria-hidden="true"></i></a>4. TouchAction</h2>
+<ul>
+<li><p>&#x4F5C;&#x7528;</p>
+<p>&#x6784;&#x5EFA;&#x76F8;&#x5BF9;&#x6BD4;&#x8F83;&#x590D;&#x6742;&#x7684;&#x3001;&#x8FDE;&#x7EED;&#x7684;&#x89E6;&#x6478;&#x884C;&#x4E3A;</p>
+</li>
+<li><p>&#x7528;&#x6CD5;</p>
+<ol>
+<li>&#x521B;&#x5EFA;TouchAction&#x5BF9;&#x8C61; &#xFF0C;&#x9700;&#x8981;&#x628A;driver&#x4F5C;&#x4E3A;&#x53C2;&#x6570;&#x4F20;&#x9012;</li>
+<li>&#x901A;&#x8FC7;&#x5404;&#x79CD;&#x65B9;&#x6CD5;&#x6DFB;&#x52A0;&#x52A8;&#x4F5C;</li>
+<li>&#x6267;&#x884C;&#x64CD;&#x4F5C;  perform()</li>
+</ol>
+</li>
+<li><p>&#x65B9;&#x6CD5;</p>
+<ul>
+<li><p>&#x6309;&#x4E0B; </p>
+<pre><code class="lang-python">press(self, el, x, y, pressure)
+</code></pre>
+<p>&#x5982;&#x679C;&#x4F20;&#x9012;&#x4E86; el&#x53C2;&#x6570; &#xFF0C;x&#x3001;y&#x53EF;&#x4EE5;&#x4E0D;&#x4F20;</p>
+<p>&#x5982;&#x679C;el&#x4E3A;None&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x4F20;&#x9012;x&#x3001;y</p>
+<p>pressure &#x662F;ios&#x4E13;&#x7528;&#x7684;</p>
+</li>
+<li><p>&#x957F;&#x6309;</p>
+<pre><code class="lang-python">long_press(self, el, x, y,duration=<span class="hljs-number">1000</span>)
+</code></pre>
+<p>&#x5982;&#x679C;&#x4F20;&#x9012;&#x4E86; el&#x53C2;&#x6570; &#xFF0C;x&#x3001;y&#x53EF;&#x4EE5;&#x4E0D;&#x4F20;</p>
+<p>&#x5982;&#x679C;el&#x4E3A;None&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x4F20;&#x9012;x&#x3001;y</p>
+</li>
+<li><p>&#x79FB;&#x52A8;</p>
+<pre><code class="lang-python">move_to(self, el, x, y)
+</code></pre>
+<p>&#x5982;&#x679C;&#x4F20;&#x9012;&#x4E86; el&#x53C2;&#x6570; &#xFF0C;x&#x3001;y&#x53EF;&#x4EE5;&#x4E0D;&#x4F20;</p>
+<p>&#x5982;&#x679C;el&#x4E3A;None&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x4F20;&#x9012;x&#x3001;y</p>
+</li>
+<li><p>&#x7B49;&#x5F85;</p>
+<pre><code class="lang-python">wait(self, ms)
+</code></pre>
+<p>ms &#x7B49;&#x5F85;&#x65F6;&#x95F4;&#xFF0C;&#x5355;&#x4F4D;&#x6BEB;&#x79D2;</p>
+</li>
+<li><p>&#x677E;&#x624B;</p>
+<pre><code class="lang-python">release()
+</code></pre>
+</li>
+<li><p>&#x8F7B;&#x6572;(&#x70B9;&#x51FB;)</p>
+<pre><code>tap(self, element, x, y, count= 1)
+</code></pre><p>tap &#x548C; click&#x7684;&#x533A;&#x522B;&#xFF1A; click&#x6709;&#x5EF6;&#x8FDF;&#x89E6;&#x53D1;&#x6548;&#x679C; (&#x4E3A;&#x4E86;&#x6821;&#x9A8C;&#x662F;&#x4E0D;&#x662F;&#x53CC;&#x51FB;)</p>
+<p>&#x901A;&#x8FC7; tap(el,count=2)&#x53EF;&#x4EE5;&#x6A21;&#x62DF;&#x53CC;&#x51FB;</p>
+</li>
+</ul>
+</li>
+</ul>
+<footer class="page-footer"><span class="copyright">&#xA9; 2021 &#x6D4B;&#x8BD5;&#x733F;--&#x732B;&#x718A; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x672C;&#x6587;&#x6863;&#x66F4;&#x65B0;&#x4E8E;&#xFF1A;
+2021-05
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="05-basic.html" class="navigation navigation-prev " aria-label="Previous page: 基础操作">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="07-案例.html" class="navigation navigation-next " aria-label="Next page: 综合案例">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"模拟手势","level":"1.2.6","depth":2,"next":{"title":"综合案例","level":"1.2.7","depth":2,"path":"07-案例.md","ref":"07-案例.md","articles":[]},"previous":{"title":"基础操作","level":"1.2.5","depth":2,"path":"05-basic.md","ref":"05-basic.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-lunr","-search","search-plus","anchor-navigation-ex-toc","tbfed-pagefooter","copy-code-button","chapter-fold"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"anchor-navigation-ex-toc":{"associatedWithSummary":true,"float":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false,"floatIcon":"fa fa-navicon"},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"tbfed-pagefooter":{"copyright":"&copy 2021 测试猿--猫熊","modify_label":"本文档更新于：","modify_format":"YYYY-MM"},"search-plus":{},"copy-code-button":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HTTP和数据库","language":"zh-hans","links":{"gitbook":false,"sharing":{"google":false,"facebook":false,"twitter":false,"all":false}},"gitbook":">=3.2.3","description":"文档描述"},"file":{"path":"06-模拟手势.md","mtime":"2021-05-13T12:19:39.857Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-26T07:23:53.573Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

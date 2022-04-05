@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML中嵌入CSS样式的第二种方式：定义内部样式块对象</title>
+		
+		<!-- head标签中使用style标签，定义样式块对象 -->
+		<style type="text/css">
+			/*
+				这是CSS的注释！！！！！！
+				在CSS的地盘中，和java的注释相同！！！！
+			*/
+		   /* 
+		   这里应该怎么写样式，语法是什么？
+				选择器 {
+					样式名 : 样式值;
+					样式名 : 样式值;
+					样式名 : 样式值;
+					样式名 : 样式值;
+					样式名 : 样式值;
+					....
+				}
+				
+				CSS中常见的选择器包括：最常用的三种选择器。
+					标签选择器
+					id选择器
+					class选择器
+		   */
+		  /* 
+		  标签选择器，很简单：
+			标签名 {}
+		  */
+			div{ /* 作用于所有的div元素*/
+				background-color: aqua;
+				width: 100px;
+				height: 100px;
+				border-color: red;
+				border-style: solid;
+				border-width: 10px;
+			}
+			/* ID选择器
+				#id{} 只作用于id这个元素    id不能重复
+			 */
+			#username {
+				width: 400px;
+				height: 30px;
+				border-color: black;
+				border-style: solid;
+				border-width: 1px;
+			}
+			
+			/* 类选择器
+				.class {} 样式作用于当前网页中某一类的标签
+			 */
+			.student {
+				font-size: 12px;
+				color: #FF0000;
+			}
+		 
+		</style>
+		
+	</head>
+	<body>
+		
+		<div>
+		<!-- 上面的div标签选择器作用于<body>里面所有div标签 -->
+		</div>
+		
+		<div>
+			
+		</div>
+		
+		<div>
+			
+		</div>
+		
+		<br>
+		<br>
+		<br>
+		
+		<!-- 怎么才能让样式作用于某1个标签，可以使用id选择器 -->
+		<input type="text" id="username" />
+		
+		<hr>
+		
+		<!-- class属性，任何一个标签都有，class相同的，可以看做是同一类标签。 -->
+		<span class="student">文本内容span</span>
+		
+		<p class="student">文本内容：段落p标签</p>
+		
+		<br><br><br><br><br><br><br><br><br><br><br>
+		
+	</body>
+</html>

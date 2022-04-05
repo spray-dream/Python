@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>函数初步</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			
+			// 这里也可以调用sayHello()函数.
+			sayHello();
+			
+			// 函数必须手动调用才会执行!
+			// 在JS当中函数声明的优先级比较高,打开网页的时候,网页中所有的函数先进行声明(定义).
+			function sayHello(){
+				alert("hello world!")
+			}
+			
+			// 这行代码暴露在script标签当中,在页面打开的时候遵循自上而下的顺序依次逐行执行!
+			sayHello();
+			
+			//再调用一次
+			sayHello();
+			
+		</script>
+		
+		<input type="button" value="hello" onclick="sayHello() "/>
+	</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>复选框的全选和取消全选</title>
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			// 页面加载完毕之后
+			window.onload = function(){
+				
+				/* // 给id = "firstChk"元素绑定click
+				var firstChkElt = document.getElementById("firstChk");
+				firstChkElt.onclick = function(){
+					// 获取到所有的复选框对象
+					var aihaos = document.getElementsByName("aihao");
+					
+					if(firstChkElt.checked){ //get复选框的选中状态
+						// 遍历数组
+						for(var i = 0; i < aihaos.length; i++){
+							var aihaoChk = aihaos[i];
+							aihaoChk.checked = true; //set复选框的选中状态
+						}	
+					}else{
+						// 遍历数组
+						for(var i = 0; i < aihaos.length; i++){
+							var aihaoChk = aihaos[i];
+							aihaoChk.checked = false;//set复选框的选中状态
+						}
+					}
+				} */
+				
+				// 改良代码
+				var firstChkElt = document.getElementById("firstChk");
+				var aihaos = document.getElementsByName("aihao");
+				firstChkElt.onclick = function(){
+					for(var i = 0; i < aihaos.length; i++){
+						aihaos[i].checked = firstChkElt.checked;
+					}
+				}
+				
+				// 给每一个name="aihao"复选框绑定鼠标单击事件
+				for(var i = 0; i < aihaos.length; i++){
+					aihaos[i].onclick = function(){
+						// 在这里控制第一个复选框的选中状态
+						// 第一个复选框选中还是不选中取决于什么？
+						// 所有的aihao复选框的总数量,如果和总选中的数量相同的时候,第一个复选框选中,反之取消选中.
+						var count = aihaos.length; //总数量
+						var checkedCount = 0; //默认选中的数量是0
+						for(var i = 0; i < aihaos.length; i++){
+							if(aihaos[i].checked){
+								checkedCount++;
+							}
+						} // 循环结束之后,所有的被选中的复选框数量就统计完了.
+						// 第一个复选框是选中呢,还是取消选中呢？
+						firstChkElt.checked = (count == checkedCount);
+					}
+				}
+			}
+		</script>
+		
+		<input type="checkbox" id="firstChk"/>
+		<br>
+		<input type="checkbox" name="aihao" value="smoke"/>抽烟
+		<br>
+		<input type="checkbox" name="aihao" value="drink"/>喝酒
+		<br>
+		<input type="checkbox" name="aihao" value="firehair"/>烫头
+		<br>
+		
+	</body>
+</html>

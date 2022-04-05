@@ -1,7 +1,7 @@
 # -*- coding = utf-8 -*-
 # @Time : 2022/2/27 20:35
 # @Author : spray_dream
-# @File : 001-.py
+# @File : 001-选择元素-id定位.py
 # @Software: PyCharm
 
 import pymysql

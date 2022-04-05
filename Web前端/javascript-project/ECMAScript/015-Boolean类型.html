@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Boolean类型</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			/* 
+				Boolean类型：
+					1、Boolean类型属于原始类型。
+					2、Boolean类型只有两个值：true,false，没有其他值。
+					3、Boolean类型中有一个函数：Boolean()函数，这个函数
+					的作用是？
+						将不是布尔类型的转换成布尔类型。
+						
+						转换规律是什么？
+							"只要有东西"结果就是true。
+							有数据就是true，无数据就是false
+			 */
+			console.log(Boolean(1)); // true
+			console.log(Boolean(0)); // false
+			
+			console.log(Boolean("abc")); // true
+			console.log(Boolean("中国")); // true
+			console.log(Boolean("")); // false
+			
+			console.log(Boolean(NaN)); // false
+			console.log(Boolean(Infinity)); // true
+			
+			console.log(Boolean(null)); // false
+			console.log(Boolean(new Object())); // true
+			
+			console.log(Boolean(undefined)); // false
+			
+			var i = 0;
+			if(i){ // 这里的代码实际上是这样的:if(Boolean(i))
+				console.log("不是0");
+			}else{
+				console.log("是0");
+			}
+			
+			var i = 10;
+			while(i) { // 这里也会自动调用Boolean()函数进行转换.
+				alert(i);
+				i--;
+			}
+			
+			// Boolean()函数在JS中会被隐式调用![程序员是不需要手动调用的]
+			//var username = "zhangsan";
+			var username = "";
+			/*
+			if(Boolean(username)) {
+				console.log("welcome, " + username)
+			}else{
+				console.log("对不起用户名不能为空！")
+			}
+			*/
+		   // 这里不是说if后面小括号可以跟字符串,if后面小括号中永远只能是true或者false
+		   // 如果不是true,也不是false,那么JS会自动隐式调用Boolean()函数进行类型转换.
+		   if(username) {
+		   	console.log("welcome, " + username)
+		   }else{
+		   	console.log("对不起用户名不能为空！")
+		   }
+		</script>
+	</body>
+</html>

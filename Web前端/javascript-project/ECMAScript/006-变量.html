@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JS的变量</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			/*
+				回顾Java中的变量？
+					怎么声明？
+						int i;
+						double d;
+						String s;
+					怎么赋值？
+						i = 100;
+						d = 3.14;
+						s = "abc";
+					一行上能声明多个变量吗？
+						int a, b, c = 300;
+						a b c都是int类型。
+						a和b没有赋值。
+						c赋值300
+					
+					重点：Java语言是一种强类型语言，有编译阶段，属于编译型语言。
+						Java语言在编译阶段确定变量的数据类型，也就是说程序还没有
+						运行呢，变量的数据类型就已经确定了，并且该变量的数据类型
+						在这一生中，永远不可变。
+							int x = 1200;【x = true; java的编译器会报错。不让这样做。语法不对！】
+							double d = x; 
+							这行代码表示x的变量中保存的值1200给d变量
+							x变量还是int类型，d变量是double类型。一生不变。
+					
+				JS的变量？
+					怎么声明？
+						var 变量名;
+						var i;
+					怎么赋值？
+						变量名 = 值;
+						i = 100;
+					一行上能声明多个变量吗？
+						var a, b, c = 300;
+						声明3个变量，a b c，并且c赋值300，其中a和b变量没有赋值，系统默认赋值undefined
+						undefined 在JS中一个具体的值，这个值就是 undefined
+					
+					重点：JS语言是一种弱类型语言，没有编译阶段，直接浏览器打开解释执行，
+					在JS中声明变量时不需要指定变量的数据类型，程序在运行过程当中，赋什么
+					类型的值，变量就是什么数据类型，并且变量的数据类型是可变的。
+						var i;
+						i = 100; 到这里i是整数型
+						i = false; 到这里i就是布尔类型了
+						i = true;
+						i = 3.14;
+						i = new Object();
+			*/
+		   var i;
+		   alert(i) // 变量只声明没有赋值,系统默认赋值undefined, 在JS当中undefined是一个具体存在的值.
+		   
+		   var x = "undefined";
+		   alert(x) // "undefined"这个不是undefined,它是一个字符串.
+		   
+		   // 声明时,同时赋值
+		   var k = 100;
+		   alert(k + 1) // 101
+		   
+		   k = false;
+		   alert(k);
+		   
+		   k = "abc";
+		   alert(k)
+		   
+		   // 一行上可以声明多个变量
+		   //var是一个关键字,就是用来声明变量的,variables单词的前3个字母.
+		   var a, b, c = 100;
+		   alert(a) // undefined
+		   alert(b) // undefined
+		   alert(c) // 100
+		   
+		</script>
+	</body>
+</html>

@@ -8,12 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19c94f20-d4d0-40b1-9125-94b0fa8bbc89" name="Default Changelist" comment="Merge branch 'master' of https://github.com/spray-dream/Python">
-      <change afterPath="$PROJECT_DIR$/软件测试/004-软件测试分类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/软件测试/005-测试用例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/软件测试/006-测试用例要素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/软件测试/007-设计原则.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/014-radio选择框.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/015-checkbox复选框.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/016-select下拉列表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/017-其他常用操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/018-Xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/软件测试/003-测试模型.py" beforeDir="false" afterPath="$PROJECT_DIR$/软件测试/003-测试模型.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/软件测试/web自动化测试/013-窗口切换.py" beforeDir="false" afterPath="$PROJECT_DIR$/软件测试/web自动化测试/013-窗口切换.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +72,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -84,7 +87,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -100,37 +103,15 @@
       <recent name="E:\Py\s\d" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IT\Py\Web" />
       <recent name="E:\IT\Py\Django" />
       <recent name="E:\IT\Py\HTML5\image" />
       <recent name="E:\IT\Py\HTML5" />
       <recent name="E:\IT\Py\代码\模块与包" />
-      <recent name="E:\IT\Py\代码\异常处理" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.004-数组中存储日期类型">
-    <configuration name="001-数组对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/库/numpy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/库/numpy/001-数组对象.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="002-ndarray对象属性操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.017-其他常用操作">
+    <configuration name="014-radio选择框" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,12 +119,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/库/numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/web自动化测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/库/numpy/002-ndarray对象属性操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/软件测试/web自动化测试/014-radio选择框.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="003-数据类型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="015-checkbox复选框" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,12 +141,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析/numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/web自动化测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/numpy/003-数据类型.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/软件测试/web自动化测试/015-checkbox复选框.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="004-数组中存储日期类型" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="016-select下拉列表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,12 +163,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据分析/numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/web自动化测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据分析/numpy/004-数组中存储日期类型.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/软件测试/web自动化测试/016-select下拉列表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="004-基本顺序表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="017-其他常用操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,56 +185,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/web自动化测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/004-基本顺序表.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="008-单链表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/008-单链表.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="008-单链表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/008-单链表.py" />
+      <option name="SCRIPT_NAME" value="E:\IT\Py\软件测试\web自动化测试\017-其他常用操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,20 +221,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="action_chains" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="D:/Python/Lib/site-packages/selenium/webdriver/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/Python/Lib/site-packages/selenium/webdriver/common/action_chains.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.001-数组对象" />
-      <item itemvalue="Python.002-ndarray对象属性操作" />
-      <item itemvalue="Python.003-数据类型" />
-      <item itemvalue="Python.004-数组中存储日期类型" />
-      <item itemvalue="Python.008-单链表" />
+      <item itemvalue="Python.014-radio选择框" />
+      <item itemvalue="Python.015-checkbox复选框" />
+      <item itemvalue="Python.016-select下拉列表" />
+      <item itemvalue="Python.action_chains" />
+      <item itemvalue="Python.017-其他常用操作" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.004-数组中存储日期类型" />
-        <item itemvalue="Python.003-数据类型" />
-        <item itemvalue="Python.002-ndarray对象属性操作" />
-        <item itemvalue="Python.001-数组对象" />
-        <item itemvalue="Python.008-单链表" />
+        <item itemvalue="Python.017-其他常用操作" />
+        <item itemvalue="Python.action_chains" />
+        <item itemvalue="Python.016-select下拉列表" />
+        <item itemvalue="Python.015-checkbox复选框" />
+        <item itemvalue="Python.014-radio选择框" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +319,31 @@
       <workItem from="1648519643837" duration="1991000" />
       <workItem from="1648565413598" duration="220000" />
       <workItem from="1648825230749" duration="606000" />
-      <workItem from="1649152590431" duration="11116000" />
+      <workItem from="1649152590431" duration="5887000" />
+      <workItem from="1649245722728" duration="5000" />
+      <workItem from="1649248522541" duration="2000" />
+      <workItem from="1649296248895" duration="7333000" />
+      <workItem from="1649422071741" duration="619000" />
+      <workItem from="1649488510541" duration="2044000" />
+      <workItem from="1649591224628" duration="946000" />
+      <workItem from="1650011655702" duration="26000" />
+      <workItem from="1650088527917" duration="1046000" />
+      <workItem from="1650091520930" duration="2809000" />
+      <workItem from="1650101267617" duration="13095000" />
+      <workItem from="1650125880234" duration="751000" />
+      <workItem from="1650178351533" duration="2660000" />
+      <workItem from="1650612952791" duration="2167000" />
+      <workItem from="1650634350857" duration="491000" />
+      <workItem from="1650867074657" duration="1028000" />
+      <workItem from="1650872113861" duration="3733000" />
+      <workItem from="1651046265246" duration="20000" />
+      <workItem from="1651046679546" duration="4451000" />
+      <workItem from="1651126355289" duration="6107000" />
+      <workItem from="1651142272244" duration="13638000" />
+      <workItem from="1651160252628" duration="4705000" />
+      <workItem from="1651215501322" duration="26667000" />
+      <workItem from="1651299068474" duration="10050000" />
+      <workItem from="1651311064925" duration="5516000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1648378627632</created>
@@ -433,13 +416,90 @@
       <updated>1648474250860</updated>
     </task>
     <task id="LOCAL-00011" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
-      <created>1649161154330</created>
+      <created>1649168522708</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1649161154330</updated>
+      <updated>1649168522708</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1649172011090</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1649172011090</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1649172033653</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1649172033653</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1649300594581</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1649300594581</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1649300605888</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1649300605888</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1649489434971</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1649489434971</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1650124552338</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650124552339</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1651129897993</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1651129897993</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1651164787166</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1651164787166</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1651219062084</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1651219062084</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1651219074831</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1651219074831</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1651248779867</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1651248779867</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,16 +612,35 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/002_ndarray_py$004_.coverage" NAME="004-数组中存储日期类型 覆盖结果" MODIFIED="1648374617229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/numpy" />
-    <SUITE FILE_PATH="coverage/001__html$009_.coverage" NAME="009-双链表 覆盖结果" MODIFIED="1647533493820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法" />
-    <SUITE FILE_PATH="coverage/004__py$001_.coverage" NAME="001-数组对象 覆盖结果" MODIFIED="1648304483939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/库/numpy" />
-    <SUITE FILE_PATH="coverage/001__py$004_.coverage" NAME="004-数组中存储日期类型 覆盖结果" MODIFIED="1648388685434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/numpy" />
-    <SUITE FILE_PATH="coverage/001__html$001_.coverage" NAME="001-按位异或 覆盖结果" MODIFIED="1647357648906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/计算机基础" />
     <SUITE FILE_PATH="coverage/002_ndarray_py$003_.coverage" NAME="003-数据类型 覆盖结果" MODIFIED="1648374184539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/numpy" />
-    <SUITE FILE_PATH="coverage/001__html$004_.coverage" NAME="004-删除有序数组中的重复项 覆盖结果" MODIFIED="1647511141796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法/leetcode" />
     <SUITE FILE_PATH="coverage/004__py$004_.coverage" NAME="004-基本顺序表 覆盖结果" MODIFIED="1648294555223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法" />
+    <SUITE FILE_PATH="coverage/001__py$002_class.coverage" NAME="002-class定位 覆盖结果" MODIFIED="1651148910917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/001__html$003_raise_assert.coverage" NAME="003-raise,assert 覆盖结果" MODIFIED="1647510356079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/senior/异常处理" />
+    <SUITE FILE_PATH="coverage/006_CSS_Selector_py$012_iframe.coverage" NAME="012-iframe 覆盖结果" MODIFIED="1651248681579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/001__html$009_.coverage" NAME="009-双链表 覆盖结果" MODIFIED="1647533493820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法" />
+    <SUITE FILE_PATH="coverage/001__py$004_.coverage" NAME="004-响应时间差异 覆盖结果" MODIFIED="1651161771905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/013__py$014_radio.coverage" NAME="014-radio选择框 覆盖结果" MODIFIED="1651304925722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/013__py$013_.coverage" NAME="013-窗口切换 覆盖结果" MODIFIED="1651300846626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/006_CSS_Selector_py$007_CSS.coverage" NAME="007-CSS子元素 覆盖结果" MODIFIED="1651224023651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/006_CSS_Selector_py$006_CSS_Selector.coverage" NAME="006-CSS_Selector选择元素原理 覆盖结果" MODIFIED="1651220672107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/006_CSS_Selector_py$008_CSS.coverage" NAME="008-CSS属性选择 覆盖结果" MODIFIED="1651231381212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/006_CSS_Selector_py$011_.coverage" NAME="011-根据次序选择 覆盖结果" MODIFIED="1651242316858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/001__py$001_.coverage" NAME="001- 覆盖结果" MODIFIED="1651143129167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/001__py$001_webdriver__1_.coverage" NAME="001-实例化webdriver对象 (1) 覆盖结果" MODIFIED="1651148495491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/002_ndarray_py$004_.coverage" NAME="004-数组中存储日期类型 覆盖结果" MODIFIED="1648374617229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/numpy" />
+    <SUITE FILE_PATH="coverage/004__py$001_.coverage" NAME="001-数组对象 覆盖结果" MODIFIED="1648304483939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/库/numpy" />
+    <SUITE FILE_PATH="coverage/013__py$015_checkbox.coverage" NAME="015-checkbox复选框 覆盖结果" MODIFIED="1651306321528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/008__py$002_.coverage" NAME="002- 覆盖结果" MODIFIED="1650109035938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/app自动化测试" />
+    <SUITE FILE_PATH="coverage/006_CSS_Selector_py$010_CSS.coverage" NAME="010-CSS选择语法联合使用 覆盖结果" MODIFIED="1651235658731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/001__html$004_.coverage" NAME="004-删除有序数组中的重复项 覆盖结果" MODIFIED="1647511141796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法/leetcode" />
+    <SUITE FILE_PATH="coverage/013__py$016_select.coverage" NAME="016-select下拉列表 覆盖结果" MODIFIED="1651309591347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/013__py$017_.coverage" NAME="017-常用操作 覆盖结果" MODIFIED="1651321548631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/001__py$003_.coverage" NAME="003-标签名定位 覆盖结果" MODIFIED="1651155073913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/013__py$action_chains.coverage" NAME="action_chains 覆盖结果" MODIFIED="1651310078356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Python/Lib/site-packages/selenium/webdriver/common" />
+    <SUITE FILE_PATH="coverage/001__py$005_.coverage" NAME="005-操控元素的方法 覆盖结果" MODIFIED="1651164471469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/008__py$002___1_.coverage" NAME="002-参数配置 (1) 覆盖结果" MODIFIED="1650120855164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/app自动化测试" />
+    <SUITE FILE_PATH="coverage/001__html$001_.coverage" NAME="001-按位异或 覆盖结果" MODIFIED="1647357648906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/计算机基础" />
     <SUITE FILE_PATH="coverage/001__html$008_.coverage" NAME="008-单链表 覆盖结果" MODIFIED="1647620745472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法" />
     <SUITE FILE_PATH="coverage/004__py$002_ndarray.coverage" NAME="002-ndarray对象属性操作 覆盖结果" MODIFIED="1648306539150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/库/numpy" />
-    <SUITE FILE_PATH="coverage/001__html$003_raise_assert.coverage" NAME="003-raise,assert 覆盖结果" MODIFIED="1647510356079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/senior/异常处理" />
   </component>
 </project>

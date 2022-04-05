@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Number类型</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			/* 
+				Number类型
+					1、Number类型属于原始类型。
+					2、Number类型都有哪些值？
+						-1 
+						0 
+						1 
+						2 
+						3 
+						3.14 
+						2.0
+						NaN
+						Infinity
+						....
+					3、NaN？
+						Not a Number，表示不是一个数字。
+						但NaN一个值。
+						它属于Number类型。
+						
+					4、什么情况下结果是一个NaN？
+						当一个数学表达式的运算结果本应该返回一个数字，
+						但是最终无法返回一个数字的时候，结果是NaN。
+					
+					5、Infinity是无穷大，当除数是0的时候，最终计算结果是无穷大。
+					
+					6、强调：
+						JavaScript当中的Number类型代表了java中的：
+							byte short int long float double 
+					
+					7、在Number类型这一块，有一个函数叫做：isNaN()函数，这个函数
+					最终返回布尔类型，返回true表示不是一个数字，返回false表示是一个
+					数字。
+						isNaN : is Not a Number
+						true: 表示不是一个数字
+						false:表示是一个数字
+						
+						isNaN(数据)：这个函数有一个特点，它会首先尝试将“数据”转换成
+						数字，如果转换失败了，则结果就是true。转换为数字成功了，那么
+						结果就是false。
+						
+						isNaN这个函数是干啥的？
+							就是用来判断“数据”是否是一个数字！！！！！
+							
+					8、在Number类型这一块还有一个函数叫做：Number()函数，这个函数的作用可以将不是
+					数字类型的数据转换成数字类型的数据。
+					
+					9、parseInt()函数，将字符串数字转换成数字，并且取整。向下取整。
+					
+					10、Math.ceil()，这是一个Math工具类中的一个函数，向上取整。
+					
+			 */
+			var k = NaN;
+			console.log(typeof k); // "number"
+			
+			// 在java中是不允许出现的
+			// 在JS中,它可以给你计算出一个惊奇的结果出来,这个结果就是:NaN.
+			// JS检测到 “/” 是一个除号,最终结果肯定是一个数字.
+			var result = 100 / "中";
+			console.log(result)
+			
+			// 在JavaScript当中+可以是字符串连接,也可以是求和.
+			var x = 100 + "中";
+			console.log(x)
+			
+			var v = Infinity;
+			console.log(typeof v) // "number"
+			
+			// 在java中会报异常.但是在JS中除数可以为0.
+			var retValue = 100 / 0;
+			console.log(retValue)
+			console.log(typeof retValue)
+			
+			
+			function sum(x, y){
+				//console.log(typeof x)
+				//console.log(typeof y)
+				//console.log(isNaN(x)) // false (true转换为数字结果是1)
+				//console.log(isNaN(y)) // false
+				if(isNaN(x) || isNaN(y)) {
+					alert("对不起，参与求和的数据必须都是数字！")
+				}else{
+					//alert(x + y)
+					alert(Number(x) + Number(y))
+				}
+			}
+			
+			//alert(Number("123") + 1)
+			
+			console.log(Number("中国")) //NaN
+			
+			
+			var s1 = "129.999"; 
+			// 需求:将以上的字符串"123.456",转换成数字,并且只取整数位
+			var num = parseInt(s1); // 不会四舍五入,直接取整数位.
+			console.log(num + 100)
+			
+			var s2 = "123.456呵呵";
+			//var s2 = "呵呵123.456"; //这样是无法转换的,最终的结果是:NaN
+			var num2 = parseInt(s2);
+			console.log(num2) //123
+			
+			// 向上取整
+			// 使用JS内置的Math这个数学类,Math数学类中有一个函数叫做ceil()
+			console.log(Math.ceil(123.001)) //124
+			console.log(Math.ceil(123.000)) //124
+			
+			// 这个和java不同了,最终结果是浮点数据!
+			console.log(10 / 3)  //3.3333333333333335
+			
+			
+		</script>
+		
+		<input type="button" value="sum" onclick="sum(true, 100)"/>
+		<input type="button" value="sum" onclick="sum('中国', 100)"/>
+		<input type="button" value="sum" onclick="sum('123', 100)"/>
+	</body> 
+</html>

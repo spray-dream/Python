@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JS注册事件的第一种方式</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function sayHello(){
+				console.log("hello jack!")
+			}
+			
+			// 这是程序员主动的调用该函数,这个函数不是回调函数.
+			//sayHello();
+			
+		</script>
+		
+		<!-- 这种注册事件的方式就是第一种方式：在标签中使用“事件句柄”，在事件句柄后面编写JS代码
+			当这个事件句柄对应的事件发生之后，“注册”在事件句柄当中的这个代码被监听器调用。
+			
+			onclick 鼠标单击的事件句柄，只有当鼠标单击事件click发生之后，注册在onclick后面的代码
+			会被执行。
+			
+			以下button标签中的sayHello()函数，在页面打开的时候并不会执行，
+			只是在页面打开的过程中完成事件的绑定，完成事件的注册，以后只有
+			当该事件发生之后sayHello()函数才会执行，像这种函数又一种特殊
+			的称谓：回调函数。英语单词叫做：callback function
+			
+			这个回调函数的特点是：
+				监听器负责调用，程序员不负责调用。
+				当事件发生之后，监听器会负责调用该函数。
+				像这种函数被称为回调函数。callback。
+			
+			张三编写的java程序
+			public class Test {
+				public static void main(String[] args){
+					// 站在“张三”的角度看method()方法属于正向调用。
+					MyClass.method();
+				}
+			}
+			李四编写的java程序
+			public class MyClass {
+				public static void method(){
+					// 站在method()方法的实现角度来看，我们不负责调用这个method()
+					// 是张三负责调用method()，我们负责实现，此时可以把这个method()叫做回调方法。
+				}
+			}
+		 -->
+		<input type="button" value="hello jack" onclick="sayHello()"/>
+		
+	</body>
+</html>

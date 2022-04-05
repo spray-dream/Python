@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JS中的函数可以重载吗</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// 这个函数已经消失了
+			function test1(a, b){
+				alert("test1(a, b)")
+			}
+			
+			// 在JS中函数是不能重载的,也不存在重载机制.
+			// JS中的函数只要出现同名函数,之前的函数就消失了.
+			// 注意在JS中编写函数名的时候,谨慎一些,以防将其他函数干掉!
+			function test1(){
+				alert("test1()");
+			}
+			
+			test1(1, 2)
+			
+		</script>
+		
+		<input type="button" value="test" onclick="test1(111, 222)"/>
+	</body>
+</html>

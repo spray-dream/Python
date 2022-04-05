@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JS中怎么定义类new对象调方法</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			/* 
+				1、在JS中怎么定义类？包括两种方式
+					第一种方式：
+						function 类名(形式参数列表){
+							
+							this.属性名 = 参数;
+							this.属性名 = 参数;
+							
+							this.方法名 = function(){
+								
+							}
+						}
+					第二种方式：
+						类名 = function(形式参数列表){
+							
+							this.属性名 = 参数;
+							this.属性名 = 参数;
+							
+							this.方法名 = function(){
+								
+							}
+						}
+			 */
+			
+			// 既是一个函数,同时又是一个类的定义.函数名是:sayHello,类名是:sayHello
+			/* function sayHello(){
+				
+			} */
+			
+			sayHello = function(){
+				
+			}
+
+			// 关键看你怎么调用,如果没有使用new运算符调用,表示普通函数调用.不会在堆中new对象.
+			sayHello();
+			
+			// 使用new运算符去调用这个函数,显然是把它当做一个类来看待,这个会导致浏览器的堆当中开辟一个新对象!
+			var obj = new sayHello(); // obj是一个引用,保存内存地址指向对象!
+			var obj2 = new sayHello();
+			
+			// 正式的定义一个员工类
+			/* function Emp(x, y, z){
+				// 属性
+				this.empno = x;
+				this.ename = y;
+				this.sal = z;
+				// 方法
+				this.work = function(){
+					console.log(this.ename + " is working!!!")
+				}
+			} */
+			
+			Emp = function(x, y, z){
+				// 属性
+				this.empno = x;
+				this.ename = y;
+				this.sal = z;
+				// 方法
+				this.work = function(){
+					console.log(this.ename + " is working!!!")
+				}
+			}
+			
+			// 创建对象
+			var e = new Emp();
+			e.work();
+			
+			var e2 = new Emp(111);
+			e2.work();
+			
+			var e3 = new Emp(2222, "KING");
+			e3.work();
+			
+			var e4 = new Emp(3333, "SMITH", 800);
+			console.log("e4.empno = " + e4.empno) //这个和java相同.
+			console.log("e4.ename = " + e4.ename)
+			console.log("e4.sal = " + e4.sal)
+			
+			/* 访问一个对象的属性还能这样，语法格式：引用["属性名"] */
+			console.log("e4.empno = " + e4["empno"])
+			console.log("e4.ename = " + e4["ename"])
+			console.log("e4.sal = " + e4["sal"])
+			
+			e4.work();
+			
+			// 给Emp动态的扩展方法呢？
+			// 后期动态扩展的方法
+			Emp.prototype.getSal = function(){
+				return this.sal;
+			}
+			
+			// 调用扩展的方法.
+			console.log(e4.getSal()) //800
+			
+		</script>
+	</body>
+</html>

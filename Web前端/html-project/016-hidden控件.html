@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>hidden控件</title>
+	</head>
+	<body>
+		
+		<!-- hidden隐藏域空间 -->
+		<form action="http://www.baidu.com" >
+			
+			<!-- 隐藏域 -->
+			<!-- 不希望用户在浏览器上看到，但是希望可以将这个数据提交过去！ -->
+			<input type="hidden" name="usercode" value="11111"/>
+			
+			<!-- 提交按钮 -->
+			<input type="submit" value="提交" />
+			
+		</form>
+		<!-- 最终提交：http://127.0.0.1:8080/crm/save?usercode=11111 -->
+		
+	</body>
+</html>

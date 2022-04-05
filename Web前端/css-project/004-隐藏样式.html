@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>隐藏样式</title>
+		<style type="text/css">
+			#citysOfChina {
+				display: none; /* 隐藏*/
+			}
+			
+			input {
+				display: block; /* 显示*/
+			}
+			
+			ul {
+				/* list-style-type: circle; */
+				list-style-type: none;
+			}
+			
+			ol {
+				/* list-style-type: none; */
+				list-style-type : upper-roman;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<ol>
+			<li>水果</li>
+			<li>蔬菜</li>
+			<li>茶</li>
+		</ol>
+		
+		<ul>
+			<li>中国
+				<ul id="citysOfChina">
+					<li>北京</li>
+					<li>天津</li>
+				</ul>
+			</li>
+			<li>美国</li>
+			<li>日本</li>
+		</ul>
+		
+		<input type="text" />
+		
+	</body>
+</html>

@@ -1,0 +1,7 @@
+A	A1	A2		
+B	B1			
+C	C1	C2	C3	C4
+D	D1	D2		
+E	E1	E2	E3	
+F	F1	F2	F3	
+G	G1	G2	G3	

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>在HTML中嵌入JS代码的第一种方式：行间事件</title>
+	</head>
+	<body>
+		<!--
+			1、需求：用户点击以下这个按钮，弹出一个对话框，对话框上显示：hello world
+			2、JavaScript是一种事件驱动型的编程语言，通常都是在发生某个事件的时候，去执行
+			某段代码。其中事件包括很多，例如：鼠标单击事件click，另外还有其它事件，例如：
+			mouseover是鼠标经过事件等。并且在JavaScript当中任何一个事件都有对应的事件句柄。
+			例如：click对应的事件句柄是onclick，mouseover对应的事件句柄是onmouseover。
+			3、所有的事件句柄都是以标签的属性形式存在。例如以下input button就有一个onclick这样属性。
+			只要有用户点击了以下的这个按钮对象，此时按钮对象上发生了鼠标单击事件，那么注册在
+			onclick事件句柄当中的JS代码会被执行！onclick后面代码实际上是浏览器负责执行的。
+			4、onclick="后面的代码"并不是在浏览器打开的时候执行，浏览器打开的时候，只是将这个代码
+			注册给onclick事件句柄了。等待该按钮的click事件发生，只要发生，后面代码会被事件监听器
+			调用。
+			5、怎么使用JS代码弹窗？
+				在JS当中有一个内置的BOM对象，可以直接拿来使用，全部小写：window
+				其中window对象有一个方法/函数叫做alert，这个函数专门用来弹出对话框！
+			
+			6、window.alert('hello world!'); 弹窗的JS代码。
+				通过这个代码可以知道：JS中的字符串可以使用单引号括起来，也可以使用双引号。
+				JS中的一条语句可以“;”结尾，也可以不以“;”结尾。
+		-->
+		<!-- 行间事件,在标签中使用事件句柄 -->
+		<input type="button" value="hello1" onclick="window.alert('hello world!');"/>
+		<input type="button" value="hello2" onclick='window.alert("hello world!")
+													 window.alert("hello kitty")
+													 window.alert("你好,中国!")'/>
+
+		<!-- window. 可以省略 -->
+		<input type="button" value="hello3" onclick="alert('hello world!');"/>
+	</body>
+</html>

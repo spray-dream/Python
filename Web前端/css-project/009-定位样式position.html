@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>定位样式position</title>
+		<style type="text/css">
+			#div1 {
+				background-color: aliceblue;
+				border: solid 1px black;
+				width: 100px;
+				height: 100px;
+
+				/* 定位 */				
+				position: absolute;
+				top: 100px;
+				left: 100px;
+			}
+			
+			#baidu:hover {
+				
+				/* 变成小手 */ cursor: pointer ; /* 尽量不要使用hand，有浏览器兼容问题！*/
+				text-decoration: underline; /* 加下划线*/
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div id="div1">
+			<span id="baidu">百度</span>
+		</div>
+		
+	</body>
+</html>

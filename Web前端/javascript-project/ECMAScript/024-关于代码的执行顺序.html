@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于代码的执行顺序</title>
+	</head>
+	<body>
+		
+		<!-- 当前的程序是存在问题的，未解决！！！！！！！！！！！！！！！！！！ -->
+		<script type="text/javascript">
+			
+			/* 根据id获取元素 */
+			/* 代码执行到这里的时候，id="btn"的节点还没有加载到浏览器的内存当中，所以以下代码返回null */
+			var btnElt = document.getElementById("btn");
+			//console.log(btnElt) // null
+			
+			/* 绑定鼠标单击事件 */
+			btnElt.onclick = function(){
+				console.log("按钮被点击了，匿名函数被执行！")
+			}
+			
+		</script>
+		
+		<input type="button" value="hello" id="btn" />
+		
+	</body>
+</html>

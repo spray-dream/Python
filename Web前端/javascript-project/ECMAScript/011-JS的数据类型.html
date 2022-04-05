@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JS的数据类型</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			/* 
+				关于JS的数据类型？
+					1、JS中声明变量不需要指定变量数据类型呀，为什么还要学习数据类型呢？
+						例如：var i = 100; var d = 3.14;
+						在JS中学习数据类型也不是为了声明变量，是为了理解JS程序的底层原理。
+						我们起码要知道100是什么类型，3.14是什么类型，怎么存储的....
+					2、ES6之前JS的数据类型包括6种：
+						Undefined
+						Number
+						Null
+						Boolean
+						String
+						Object
+						
+						其中：Undefined、Number、String、Boolean、Null都属于原始类型（或者叫做基本数据类型）
+						其中：Object属于引用数据类型（或者叫做对象类型）
+						
+					3、在ES6之后引入了其它新的类型，知道就行：
+						Symbol
+						BigInt
+						注意：ES6之后是8种类型。ES6之前是6种类型。
+					4、typeof运算符（非常重要*****）
+						typeof运算符可以在JS代码运行过程当中，动态的获取变量的数据类型。
+						typeof运算符的语法格式：typeof 变量名
+						typeof运算符的运算结果是以下6个字符串之一：
+							"undefined"
+							"number"
+							"string"
+							"boolean"
+							"object"
+							"function"
+							并且以上6个字符串都是全部小写的！
+							
+					5、在JS中判断两个字符串是否相等，应该使用“==”,JS中没有equals函数！！！
+					
+					6、关于JS的比较官方的参考文档？
+						https://developer.mozilla.org/zh-CN/docs/Web/API
+						Web前端 API 接口参考
+						
+			 */
+			// sum函数的作用是计算两个数字的和,要求x和y都必须是数字类型,如果不是数字类型应该提示错误信息!
+			function sum(x, y){
+				// 有一段代码可以动态获取x和y变量的数据类型.
+				if(typeof x == "number" && typeof y == "number"){
+					// 求和结果
+					alert(x + y);
+				}else{
+					// 程序执行到这里表示x和y不都是数字	
+					alert("传递的两个参数必须都是数字才可以求和！");
+				}
+			}
+			
+			// i变量声明,但是没有赋值,系统默认赋值undefined
+			var i;
+			//alert(typeof i) // i变量的数据类型属于Undefined类型,所以typeof运算符的结果是:"undefined"
+			console.log(typeof i)
+			
+			var k = 3.14;
+			//alert(typeof k)
+			
+			// 输出信息到控制台,类似于java中的:System.out.println();
+			console.log(typeof k)
+			
+			var e = 100;
+			console.log(typeof e)
+			
+			var username = "zhangsan";
+			console.log(typeof username)
+			
+			var sex = true
+			console.log(typeof sex)
+			
+			// null属于Null类型,但是typeof运算符的运算结果是"object"
+			// 一定要注意:null这个值是基本数据类型,但是typeof运算符的运算结果是"object"
+			var v = null;
+			console.log(typeof v) // "object"
+			
+			var newObject = new Object();
+			console.log(typeof newObject) // "object"    ??????
+			
+			console.log(typeof sum) // "function"
+			
+		</script>
+		
+		<input type="button" value="计算两个数字的和" onclick="sum('abc', 'def')" />
+		<input type="button" value="计算两个数字的和" onclick="sum(1, 111)" />
+		<input type="button" value="计算两个数字的和" onclick="sum(1, true)" />
+		
+	</body>
+</html>

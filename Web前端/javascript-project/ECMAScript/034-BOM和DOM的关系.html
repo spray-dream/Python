@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BOM和DOM的关系</title>
+	</head>
+	<body>
+		
+		<div id="div1">
+			
+		</div>
+		
+		<script type="text/javascript">
+			/* BOM是浏览器，DOM是浏览器上的网页，所以BOM是包含DOM的。 */
+			window.onload = function(){
+				
+				console.log(window.document)
+				console.log(document)
+				
+				// window对象是BOM的顶级老大
+				// document对象是DOM的顶级老大
+				// 实际上完整的写法是: window.document, 只不过window. 可以省略.
+				//var divObj = window.document.getElementById("div1")
+				var divObj = document.getElementById("div1")
+				console.log("========>" + divObj)
+			}
+		</script>
+	</body>
+</html>

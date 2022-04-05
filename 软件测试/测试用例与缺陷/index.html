@@ -1,0 +1,546 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Introduction · HTTP和数据库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex-toc/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="C4.S0.target.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="C4.S0.target.html">
+            
+                <a href="C4.S0.target.html">
+            
+                    
+                    测试用例
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="C4.S1.basic_concept.html">
+            
+                <a href="C4.S1.basic_concept.html">
+            
+                    
+                    基础概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="C4.S2.equivalent.html">
+            
+                <a href="C4.S2.equivalent.html">
+            
+                    
+                    等价类划分法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="C4.S3.boundary.html">
+            
+                <a href="C4.S3.boundary.html">
+            
+                    
+                    边界值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="C4.S4.causal.html">
+            
+                <a href="C4.S4.causal.html">
+            
+                    
+                    因果图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="C4.S5.decision.html">
+            
+                <a href="C4.S5.decision.html">
+            
+                    
+                    判定表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="C4.S6.orthogonal.html">
+            
+                <a href="C4.S6.orthogonal.html">
+            
+                    
+                    正交表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="C4.S7.scenarios.html">
+            
+                <a href="C4.S7.scenarios.html">
+            
+                    
+                    场景法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="C4.S8.process.html">
+            
+                <a href="C4.S8.process.html">
+            
+                    
+                    流程分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="C4.S9.intuition.html">
+            
+                <a href="C4.S9.intuition.html">
+            
+                    
+                    错误推断法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="C4.S10.strength.html">
+            
+                <a href="C4.S10.strength.html">
+            
+                    
+                    测试力度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="C4.S11.summary.html">
+            
+                <a href="C4.S11.summary.html">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="C4.S12.review.html">
+            
+                <a href="C4.S12.review.html">
+            
+                    
+                    测试用例评审
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="C5.S0.target.html">
+            
+                <a href="C5.S0.target.html">
+            
+                    
+                    缺陷报告
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="C5.S1.basic_concept.html">
+            
+                <a href="C5.S1.basic_concept.html">
+            
+                    
+                    基础概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="C5.S2.defect_report_intro.html">
+            
+                <a href="C5.S2.defect_report_intro.html">
+            
+                    
+                    缺陷报告介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="C5.S3.defect_report_content.html">
+            
+                <a href="C5.S3.defect_report_content.html">
+            
+                    
+                    缺陷报告内容
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="C5.S4.defect_report_write.html">
+            
+                <a href="C5.S4.defect_report_write.html">
+            
+                    
+                    缺陷报告书写
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="C5.S5.defect_report_statistic.html">
+            
+                <a href="C5.S5.defect_report_statistic.html">
+            
+                    
+                    缺陷报告统计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="C5.S6.defect_report_summary.html">
+            
+                <a href="C5.S6.defect_report_summary.html">
+            
+                    
+                    缺陷报告总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="C5.S7.defect_manage.html">
+            
+                <a href="C5.S7.defect_manage.html">
+            
+                    
+                    缺陷管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Introduction</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;"><b> </b>&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;</a></li><li><span class="title-icon "></span><a href="#&#x5B66;&#x4E60;&#x76EE;&#x6807;"><b> </b>&#x5B66;&#x4E60;&#x76EE;&#x6807;</a></li></ul></div><a href="#&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;"><a name="&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;" class="anchor-navigation-ex-anchor" href="#&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;"><i class="fa fa-link" aria-hidden="true"></i></a> &#x8BFE;&#x7A0B;&#x5185;&#x5BB9;</h1>
+<table>
+<thead>
+<tr>
+<th>&#x5929;&#x6570;</th>
+<th>&#x5185;&#x5BB9;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#x7684;&#x8BBE;&#x8BA1;</td>
+</tr>
+<tr>
+<td>1</td>
+<td>&#x7F3A;&#x9677;&#x548C;&#x7F3A;&#x9677;&#x62A5;&#x544A;</td>
+</tr>
+</tbody>
+</table>
+<h1 id="&#x5B66;&#x4E60;&#x76EE;&#x6807;"><a name="&#x5B66;&#x4E60;&#x76EE;&#x6807;" class="anchor-navigation-ex-anchor" href="#&#x5B66;&#x4E60;&#x76EE;&#x6807;"><i class="fa fa-link" aria-hidden="true"></i></a> &#x5B66;&#x4E60;&#x76EE;&#x6807;</h1>
+<ul>
+<li>&#x77E5;&#x9053;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#x7684;&#x4F5C;&#x7528;</li>
+<li>&#x80FD;&#x591F;&#x8BF4;&#x51FA;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#x7684;&#x6784;&#x6210;</li>
+<li>&#x80FD;&#x591F;&#x8BF4;&#x51FA;&#x5404;&#x79CD;&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#x8BBE;&#x8BA1;&#x601D;&#x60F3;&#x7684;&#x672C;&#x8D28;</li>
+<li>&#x77E5;&#x9053;&#x7F3A;&#x9677;&#x62A5;&#x544A;&#x7684;&#x4F5C;&#x7528;</li>
+<li>&#x80FD;&#x8BF4;&#x51FA;&#x7F3A;&#x9677;&#x62A5;&#x544A;&#x7684;&#x5185;&#x5BB9;</li>
+<li>&#x80FD;&#x591F;&#x6B63;&#x786E;&#x4E66;&#x5199;&#x7F3A;&#x9677;&#x62A5;&#x544A; </li>
+</ul>
+<footer class="page-footer"><span class="copyright">&#xA9; 2021 &#x6D4B;&#x8BD5;&#x733F;-&#x732B;&#x718A; all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x672C;&#x6587;&#x6863;&#x66F4;&#x65B0;&#x4E8E;&#xFF1A;
+2021-04
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="C4.S0.target.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 测试用例">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"测试用例","level":"1.2","depth":1,"path":"C4.S0.target.md","ref":"C4.S0.target.md","articles":[{"title":"基础概念","level":"1.2.1","depth":2,"path":"C4.S1.basic_concept.md","ref":"C4.S1.basic_concept.md","articles":[]},{"title":"等价类划分法","level":"1.2.2","depth":2,"path":"C4.S2.equivalent.md","ref":"C4.S2.equivalent.md","articles":[]},{"title":"边界值","level":"1.2.3","depth":2,"path":"C4.S3.boundary.md","ref":"C4.S3.boundary.md","articles":[]},{"title":"因果图","level":"1.2.4","depth":2,"path":"C4.S4.causal.md","ref":"C4.S4.causal.md","articles":[]},{"title":"判定表","level":"1.2.5","depth":2,"path":"C4.S5.decision.md","ref":"C4.S5.decision.md","articles":[]},{"title":"正交表","level":"1.2.6","depth":2,"path":"C4.S6.orthogonal.md","ref":"C4.S6.orthogonal.md","articles":[]},{"title":"场景法","level":"1.2.7","depth":2,"path":"C4.S7.scenarios.md","ref":"C4.S7.scenarios.md","articles":[]},{"title":"流程分析","level":"1.2.8","depth":2,"path":"C4.S8.process.md","ref":"C4.S8.process.md","articles":[]},{"title":"错误推断法","level":"1.2.9","depth":2,"path":"C4.S9.intuition.md","ref":"C4.S9.intuition.md","articles":[]},{"title":"测试力度","level":"1.2.10","depth":2,"path":"C4.S10.strength.md","ref":"C4.S10.strength.md","articles":[]},{"title":"总结","level":"1.2.11","depth":2,"path":"C4.S11.summary.md","ref":"C4.S11.summary.md","articles":[]},{"title":"测试用例评审","level":"1.2.12","depth":2,"path":"C4.S12.review.md","ref":"C4.S12.review.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","-lunr","-search","search-plus","anchor-navigation-ex-toc","tbfed-pagefooter","copy-code-button","chapter-fold"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"anchor-navigation-ex-toc":{"associatedWithSummary":true,"float":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false,"floatIcon":"fa fa-navicon"},"mode":"float","multipleH1":false,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"tbfed-pagefooter":{"copyright":"&copy 2021 测试猿-猫熊","modify_label":"本文档更新于：","modify_format":"YYYY-MM"},"search-plus":{},"copy-code-button":{},"highlight":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"HTTP和数据库","language":"zh-hans","links":{"gitbook":false,"sharing":{"google":false,"facebook":false,"twitter":false,"all":false}},"gitbook":">=3.2.3","description":"文档描述"},"file":{"path":"README.md","mtime":"2021-04-29T12:15:43.007Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-23T08:10:27.268Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

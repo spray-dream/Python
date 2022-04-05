@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			/* 
+			1、什么是JSON？
+				JavaScript Object Notation（JavaScript标记对象）
+				简称JSON。
+				JSON是一种轻量级的数据交换格式。
+				
+				什么是轻量级：
+					体现在JSON的体积小。虽然一个小的体积可能表示的数据很多。
+				
+				什么是数据交换：
+					C语言和Java语言之间交换数据，
+					python和Java语言之间交换数据，
+					javascript和java之间交换数据。
+				
+				透露一下：在现代的开发中，能够做数据交换的，包括两个：
+					第一个：JSON
+					第二个：XML
+					JSON和XML都是非常标准的数据交换格式。
+						XML体积大，解析难度大。
+						JSON体积小，解析更容易。
+						XML和JSON相对比来说，XML的语法严格，json的语法相对松散。
+				
+			2、在JavaScript当中，json是以对象的形式存在的。
+			
+			3、在javascript当中，怎么定义JSON格式的对象，怎么访问对象的属性呢？
+				语法格式：
+					var jsonObj = {
+							"属性名" : 属性值,
+							"属性名" : 属性值,
+							"属性名" : 属性值,
+							"属性名" : 属性值,
+							"属性名" : 属性值,
+							"属性名" : 属性值,
+							....
+					}
+					
+					注意：属性值，可以是任意类型。
+					JSON是一种无类型的对象，直接一个大括号包起来就是一个JSON对象了。
+					
+			4、注意：在JS中[]和{}有什么区别？
+				[] 是数组对象
+				{} 是json对象
+			 */
+			var emp = {
+				"empno" : 7369,
+				"ename" : "smith",
+				"sal" : 800
+			}
+			
+			// 怎么访问对象的属性？
+			// 第一种方式
+			console.log(emp.empno)
+			console.log(emp.ename)
+			console.log(emp.sal)
+			
+			// 第二种方式
+			console.log(emp["empno"])
+			console.log(emp["ename"])
+			console.log(emp["sal"])
+			
+			var person = {
+				"name" : "zhangsan",
+				"sex" : false,
+				"aihao" : ["抽烟","喝酒","烫头"]
+			}
+			
+			console.log(person.name)
+			
+			console.log(person.sex ? "男" : "女"),
+			
+			var aihaos = person.aihao;
+			for(var i = 0; i < aihaos.length; i++){
+				console.log(aihaos[i])
+			}
+			
+		</script>
+	</body>
+</html>

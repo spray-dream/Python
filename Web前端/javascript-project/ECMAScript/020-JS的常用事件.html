@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JS的常用事件</title>
+		<style type="text/css">
+			input {
+				border: 1px solid black;
+				width: 300px;
+				height: 50px;
+			}
+			#mouseDiv {
+				border: 1px solid black;
+				background-color: aqua;
+				width: 300px;
+				height: 300px;
+			}
+		</style>
+	</head>
+	<!-- 
+		load事件：
+			1、load事件不是在页面加载过程中触发的。
+			2、load事件是在页面中所有的元素全部加载完毕之后才发生的。
+	 -->
+	<body onload="console.log('页面加载完毕了!')">
+		<script type="text/javascript">
+			/* 
+				JS的常用事件：
+					（1）blur				失去焦点
+					（5）focus				获得焦点
+					
+					（3）click				鼠标单击
+					（4）dblclick			鼠标双击
+					
+					（6）keydown				键盘按下
+					（7）keyup				键盘弹起
+					
+					（9）mousedown			鼠标按下
+					（10）mouseover			鼠标经过
+					（11）mousemove			鼠标移动
+					（12）mouseout			鼠标离开
+					（13）mouseup			鼠标弹起
+					
+					（16）submit				表单提交
+					（14）reset				表单重置
+					
+					（15）select				文本被选定
+					（2）change				下拉列表选中项改变，或文本框内容改变
+					（8）load				页面加载完毕
+					
+				提醒：任何一个事件都有对应的事件句柄。事件句柄是在事件名称前添加on就行。
+			 */
+		</script>
+		
+		测试选中文本事件：
+		<textarea rows="10" cols="30" onselect="console.log('文本被选中了')"></textarea>
+		<br>
+		<input type="text" onselect="console.log('文本被选中了')"/>
+		<br>
+		<br>
+		测试change事件：
+		<select onchange="console.log('选项被修改!')">
+			<option value ="">--请选择您的学历--</option>
+			<option value ="gz">高中</option>
+			<option value ="zk">专科</option>
+		</select>
+		<br>
+		<br>
+		
+		测试表单的提交和重置事件：
+		<form action="" onsubmit="alert('表单提交了')" onreset="console.log('表单重置了')">
+			<input type="submit" value="提交"/>
+			<input type="reset" value="重置"/>
+		</form>
+		
+		测试失去焦点事件：<input type="text" onblur="console.log('失去焦点了')"/>
+		<br>
+		测试获取焦点事件：<input type="text" onfocus="console.log('获取焦点了')"/>
+		<br>
+		测试click事件：<input type="button" value="click事件" onclick="console.log('单击')"/>
+		<br>
+		测试dblclick事件：<input type="button" value="dblclick事件" ondblclick="console.log('双击')"/>
+		<br>
+		测试keydown事件：<input type="text" onkeydown="console.log('keydown....')" onkeyup="console.log('keyup....')"/>
+		<br>
+		测试keyup事件：<input type="text" onkeyup="console.log('keyup....')" />
+		
+		<br>
+		测试mouse相关的时间：
+			<div id="mouseDiv" onmouseover="console.log('鼠标经过了')"
+							   onmousedown="console.log('鼠标按下了')"
+							   onmouseout="console.log('鼠标离开了')"
+							   onmouseup="console.log('鼠标弹起了')"
+							   onmousemove="console.log('鼠标移动了')"></div>
+			<br>
+			
+			
+			
+		
+	</body>
+</html>
+
+<script type="text/javascript">
+	alert("hello world!")
+</script>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>在HTML中嵌入JS的第三种方式：引入外部独立的JS文件</title>
+		
+		<!-- 引入外部独立的CSS文件。这个标签link中属性是href -->
+		<link rel="stylesheet" type="text/css" href=""/>
+	</head>
+	<body>
+		
+		<!-- 引入外部独立的js文件 -->
+		<!-- script标签引入js文件的时候，是src属性，不是href。 -->
+		<script type="text/javascript" src="js/1.js"></script>
+		
+		<!-- 引入第二次，这个操作没有意义，测试结果：只要引入一次JS文件，JS文件中的代码就会全部执行一遍 -->
+		<script type="text/javascript" src="js/1.js"></script>
+		
+		<script type="text/javascript" src="js/1.js">
+			//alert("hello world!~~~~~"); // 引入文件后在中间的代码不会执行！
+		</script>
+		
+		<!-- 单独的脚本块 -->
+		<script type="text/javascript">
+			alert("hello world!%%%%%%%%");
+		</script>
+		
+	</body>
+</html>

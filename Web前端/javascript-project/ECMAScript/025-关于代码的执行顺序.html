@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于代码的执行顺序</title>
+	</head>
+	<!-- <body onload="这里的代码在执行的时候,页面中的元素肯定全部加载完了!"> -->
+	<body onload="pageLoad()">
+		
+		<script type="text/javascript">
+			function pageLoad(){
+				// 页面加载完毕之后才会执行这里的代码.此时id="btn"的元素已经加载到浏览器内存了.
+				var btnElt = document.getElementById("btn");
+				btnElt.onclick = function(){
+					console.log("按钮被点击了，匿名函数被执行！")
+				}
+			}
+		</script>
+		
+		<input type="button" value="hello" id="btn" />
+		
+	</body>
+</html>

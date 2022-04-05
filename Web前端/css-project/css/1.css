@@ -1,0 +1,23 @@
+#div1 {
+	background-color: #a0dbff;
+	width: 100px;
+	height: 100px;
+}
+
+/* 标签选择器 */
+input {
+	/* border-style: solid;
+	border-color: red;
+	border-width: 1px; */
+	
+	border : solid 1px red;
+}
+
+/* 类选择器也可以使用 */
+.myinput {
+	border : solid 2px blue;
+}
+
+#username {
+	border : double 3px black;
+}

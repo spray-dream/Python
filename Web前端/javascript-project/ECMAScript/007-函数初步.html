@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>函数初步</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			
+			//alert(122222);
+			
+			/*
+				回顾Java中的方法：
+					[修饰符列表] 返回值类型 方法名(形式参数列表){
+						方法体;
+					}
+					例如：
+						public static int sum(int a,int b){
+							return a + b;
+						}
+						
+				JavaScript当中的函数：
+					函数定义的语法格式是什么？
+						function 函数名(形式参数列表){
+							函数体;
+						}
+						例如：
+							function sum(a, b){
+								return a + b;
+							}
+						
+							函数名：sum
+							形式参数列表是：a和b  (a和b都是变量名！)
+							
+					JS中的函数返回值类型是不需要指定的，因为可以返回任何类型的数据。没有限制。
+				
+				关于JS的的调试？
+					首选方案是：alert()，在程序的某个位置先使用alert弹出某个变量的值，看看是否是你需要的。
+					通过alert可以调试JS代码。
+					
+					另外一种方案是：采用浏览器自带的调试插件，F12
+						F12这个插件中比较重要的面板：
+							控制台
+							查看器
+							网络
+							掌握以上三个面板！！！！！！！！！！！！
+			*/
+		   /* function sum(a, b){
+			   
+		   } */
+		   
+		   // 函数必须调用才会执行.
+		   function sum(x, y){
+			   alert(x + "," + y);
+			   //alert("sum函数执行了！");
+		   }
+		   
+		   //这一切都是因为js是一门弱类型语言!
+		   sum("abc", false);
+		   
+		   // 调用sum函数
+		   sum();
+		   
+		   // 调用sum函数
+		   sum(1);
+		   
+		   // 调用sum函数
+		   sum(1,2);
+		   
+		   // 调用sum函数
+		   sum(1,2,3);
+		   
+		   /* JS的函数还有另一种声明方式？*/
+		   //效果相同
+		   mysum = function(a, b){
+			   return a + b; //返回计算结果!
+		   }
+		   
+		   // 调用函数
+		   var result = mysum(10, 20);
+		   alert(result)
+		   
+		   //定义一个函数
+		   function sayHello(username){
+			   alert("欢迎" + username + "光临！")
+		   }
+		   
+		</script>
+		
+		<!-- 在事件句柄当中调用sayHello函数 -->
+		<input type="button" value="hello" onclick="sayHello('李四')" />
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>onload事件句柄</title>
+	</head>
+	<!-- 页面加载完毕之后监听器调用myfun()回调函数 -->
+	<!-- <body onload="myfun()"> -->
+	<!-- <body id="mybody"> -->
+	<body>
+		
+		<script type="text/javascript">
+			
+			/* function myfun(){
+				console.log("myfun execute!~~~~~~~~~~~~~~")
+			} */
+			
+			// 这种方式可以,就是代码有点多,在JS当中,window对象也可以onload.
+			//var mybodyElt = document.getElementById("mybody");
+			//mybodyElt.onload = myfun
+			
+			/* 在页面打开的时候，以下这行代码会执行，这行代码执行的作用是：将回调函数myfun注册到load事件上 */
+			/* 当页面全部加载完毕之后，会发生load事件，load事件发生之后，监听器负责调用回调函数myfun */
+			//window.onload = myfun
+			
+			// load事件发生之后,后面的“匿名回调函数”会被监听器调用.
+			window.onload = function(){
+				console.log("hello world!")
+			}
+			
+			// 页面打开的过程中实际上是各种事件的绑定.
+			// 等这些事件一个一个发生之后,回调函数统一都是由监听器来负责调用的.
+			/* xxxElt.onclick = function(){}
+			xxxElt.onblur = function(){} */
+			
+		</script>
+		
+		
+	</body>
+	
+</html>
+
+<script type="text/javascript">
+	alert("页面加载过程中！")
+</script>

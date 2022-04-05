@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>readonly和disabled</title>
+	</head>
+	<body>
+		
+		<!-- readonly和disabled都是只读的！ -->
+		<!-- http://127.0.0.1:8080/crm/save?orgcode=1111 -->
+		<!-- readonly修饰的表单项可以提交给服务器，但是disabled修饰的不会提交！ -->
+		<form action="http://127.0.0.1:8080/crm/save">
+			机构代码 <input type="text" name="orgcode" value="1111" readonly />
+			<br>
+			用户代码 <input type="text" name="usercode" value="2222" disabled />
+			<br>
+			<input type="submit" value="提交" />
+		</form>
+		
+	</body>
+</html>

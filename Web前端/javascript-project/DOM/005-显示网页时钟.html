@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>显示网页时钟</title>
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			/* window.onload = function(){
+				document.getElementById("displayTimeBtn").onclick = function(){
+					// 获取系统当前时间,把时间显示到div中
+					var nowTime = new Date();
+					// 显示到div当中
+					document.getElementById("timediv").innerHTML = nowTime.toLocaleString();
+				}
+			} */
+			
+			/* function display(){
+				console.log("显示时间")
+			} */
+			
+			// 设置每个1S执行一次display()函数
+			//window.setInterval("display()", 1000)
+			
+			window.onload = function(){
+				document.getElementById("displayTimeBtn").onclick = function(){
+					// 每隔1S调用一次displayTime()函数(设置周期性调用。)
+					// 返回值是一个可以取消周期性调用的value.
+					v = window.setInterval("displayTime()", 1000)
+				}
+				
+				document.getElementById("stopTimeBtn").onclick = function(){
+					// 停止周期性的调用.
+					window.clearInterval(v)
+				}
+			}
+			
+			function displayTime(){
+				var nowTime = new Date();
+				document.getElementById("timediv").innerHTML = nowTime.toLocaleString();
+			}
+			
+		</script>
+		
+		<input type="button" value="显示系统当前时间" id="displayTimeBtn"/>
+		<input type="button" value="时间停止" id="stopTimeBtn"/>
+		
+		<div id="timediv"></div>
+		
+	</body>
+</html>

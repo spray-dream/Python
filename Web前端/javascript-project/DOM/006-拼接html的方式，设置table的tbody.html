@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>拼接html的方式，设置table的tbody（非常具有代表性的案例，必须敲5遍。）</title>
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			/* 从java过来一个json格式的字符串 */
+			var fromJava = "{\"total\" : 2, \"students\" : [{\"name\":\"李四\",\"age\":19},{\"name\":\"王五\",\"age\":18}]}";
+			
+			window.onload = function(){
+				document.getElementById("displaybtn").onclick = function(){
+					// 解析上面的json格式的字符串,将解析出来的数据放到tbody当中.
+					// 转化json对象
+					window.eval("var json = " + fromJava) //json对象有了.
+					// 设置总记录条数
+					document.getElementById("totalSpan").innerHTML = json.total;
+					// 拼接HTML
+					var studentArray = json.students;
+					var html = "";
+					for(var i = 0; i < studentArray.length; i++){
+						var s = studentArray[i]
+						html += "<tr>";
+						html += "<td>"+(i+1)+"</td>";
+						html += "<td>"+s.name+"</td>";
+						html += "<td>"+s.age+"</td>";
+						html += "</tr>";
+					}
+					// 将以上拼接的HTML设置到tbody当中
+					document.getElementById("stutbody").innerHTML = html;
+				}
+			}
+			
+		</script>
+		
+		<input type="button" value="查看学生信息列表" id="displaybtn" />
+		<hr >
+		
+		<table border="1px" width="40%">
+			<tr>
+				<th>序号</th>
+				<th>学生姓名</th>
+				<th>学生年龄</th>
+			</tr>
+			<tbody id="stutbody">
+				<!-- <tr>
+					<td>1</td>
+					<td>张三</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>李四</td>
+					<td>22</td>
+				</tr> -->
+			</tbody>
+		</table>
+		总记录条数：<span id="totalSpan">0</span>条
+		<!-- 总记录条数：2条 -->
+	</body>
+</html>

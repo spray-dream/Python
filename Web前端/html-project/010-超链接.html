@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>超链接</title>
+	</head>
+	<body>
+		<!-- 链接到百度 -->
+		<!-- href 属性表示：hot references，用来指定链接的路径 -->
+		<a href="http://www.baidu.com">百度</a>
+		<br>
+		<!-- 链接路径可以是一个网络中的路径，也可以是一个本地的路径！ -->
+		<!-- 超链接的特点：鼠标停留在超链接上自动变成小手，超链接自动添加下划线！ -->
+		<a href="004-表格.html">链接到本地的表格！</a>
+		<br>
+		<a href="http://www.jd.com">京东商城</a>
+		<br>
+		<a href="http://www.126.com">126邮箱</a>
+		<br>
+		<a href="https://map.baidu.com">百度地图</a>
+		
+		<!-- 图片可以做热链接吗？可以 -->
+		<a href="https://map.baidu.com">
+			<!-- 标签嵌套使用！ -->
+			<!-- 这个图片也是一个超链接,链接到a标签中的地址 .也可以换成随意一段文本,只要包含在a的开始和结束标签之间-->
+			<img src="images/bd.png" width="200px" title="点击我跳转到百度地图哦!" />
+			sfiuyu
+		</a>
+		
+		<hr>
+		
+		<!-- 关于超链接的target属性 -->
+		<!-- target属性用来设置，最终打开窗口的位置 -->
+		<!-- 
+		target ：
+			_blank：新窗口
+			_self：当前窗口
+			_parent：当前窗口的父窗口
+			_top：当前窗口的顶级窗口
+		-->
+		<a href="http://www.baidu.com" target="_self">百度（当前窗口）</a>
+		<a href="http://www.baidu.com" target="_blank">百度（新窗口）</a>
+		<a href="http://www.baidu.com">百度（默认是怎样的？当前窗口）</a>
+		
+		<hr>
+		<!-- 一个窗口中的内部窗口 -->
+		<iframe src="http://www.baidu.com"></iframe>
+        
+	</body>
+</html>
