@@ -8,7 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19c94f20-d4d0-40b1-9125-94b0fa8bbc89" name="Default Changelist" comment="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <change afterPath="$PROJECT_DIR$/软件测试/004-软件测试分类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/005-测试用例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/006-测试用例要素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/007-设计原则.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/软件测试/003-测试模型.py" beforeDir="false" afterPath="$PROJECT_DIR$/软件测试/003-测试模型.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +84,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -351,6 +356,11 @@
       <workItem from="1648397728238" duration="709000" />
       <workItem from="1648398663812" duration="5550000" />
       <workItem from="1648434216240" duration="942000" />
+      <workItem from="1648474175681" duration="1612000" />
+      <workItem from="1648519643837" duration="1991000" />
+      <workItem from="1648565413598" duration="220000" />
+      <workItem from="1648825230749" duration="606000" />
+      <workItem from="1649152590431" duration="11116000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1648378627632</created>
@@ -415,7 +425,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648431977041</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1648474250860</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648474250860</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1649161154330</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649161154330</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
