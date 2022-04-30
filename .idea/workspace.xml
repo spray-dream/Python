@@ -8,14 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19c94f20-d4d0-40b1-9125-94b0fa8bbc89" name="Default Changelist" comment="Merge branch 'master' of https://github.com/spray-dream/Python">
-      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/014-radio选择框.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/015-checkbox复选框.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/016-select下拉列表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/017-其他常用操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/软件测试/web自动化测试/018-Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/接口测试/001-requests库.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/接口测试/002-构建API请求.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/接口测试/003-处理API响应.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/接口测试/004-requests库处理session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/软件测试/接口测试/测试用例/api-0001.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/软件测试/web自动化测试/013-窗口切换.py" beforeDir="false" afterPath="$PROJECT_DIR$/软件测试/web自动化测试/013-窗口切换.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +75,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -87,7 +87,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -103,15 +103,15 @@
       <recent name="E:\Py\s\d" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IT\Py\软件测试\web自动化测试" />
       <recent name="E:\IT\Py\Web" />
       <recent name="E:\IT\Py\Django" />
       <recent name="E:\IT\Py\HTML5\image" />
       <recent name="E:\IT\Py\HTML5" />
-      <recent name="E:\IT\Py\代码\模块与包" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.017-其他常用操作">
-    <configuration name="014-radio选择框" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.api-0001 (1)">
+    <configuration name="002-构建API请求 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,12 +119,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/web自动化测试" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/接口测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/软件测试/web自动化测试/014-radio选择框.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/软件测试/接口测试/002-构建API请求.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="015-checkbox复选框" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="003-处理API响应" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,12 +141,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/web自动化测试" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/接口测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/软件测试/web自动化测试/015-checkbox复选框.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/软件测试/接口测试/003-处理API响应.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="016-select下拉列表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="004-requests库处理session" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,34 +163,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/web自动化测试" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/接口测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/软件测试/web自动化测试/016-select下拉列表.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="017-其他常用操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Py" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/web自动化测试" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\IT\Py\软件测试\web自动化测试\017-其他常用操作.py" />
+      <option name="SCRIPT_NAME" value="E:\IT\Py\软件测试\接口测试\004-requests库处理session.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="action_chains" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="api-0001 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,12 +207,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\Python\python.exe" />
-      <option name="WORKING_DIRECTORY" value="D:/Python/Lib/site-packages/selenium/webdriver/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/接口测试/测试用例" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/Python/Lib/site-packages/selenium/webdriver/common/action_chains.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/软件测试/接口测试/测试用例/api-0001.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api-0001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/软件测试/接口测试/测试用例" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\IT\Py\软件测试\接口测试\测试用例\api-0001.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,19 +244,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.014-radio选择框" />
-      <item itemvalue="Python.015-checkbox复选框" />
-      <item itemvalue="Python.016-select下拉列表" />
-      <item itemvalue="Python.action_chains" />
-      <item itemvalue="Python.017-其他常用操作" />
+      <item itemvalue="Python.002-构建API请求 (1)" />
+      <item itemvalue="Python.003-处理API响应" />
+      <item itemvalue="Python.004-requests库处理session" />
+      <item itemvalue="Python.api-0001" />
+      <item itemvalue="Python.api-0001 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.017-其他常用操作" />
-        <item itemvalue="Python.action_chains" />
-        <item itemvalue="Python.016-select下拉列表" />
-        <item itemvalue="Python.015-checkbox复选框" />
-        <item itemvalue="Python.014-radio选择框" />
+        <item itemvalue="Python.api-0001 (1)" />
+        <item itemvalue="Python.api-0001" />
+        <item itemvalue="Python.004-requests库处理session" />
+        <item itemvalue="Python.003-处理API响应" />
+        <item itemvalue="Python.002-构建API请求 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +343,18 @@
       <workItem from="1651160252628" duration="4705000" />
       <workItem from="1651215501322" duration="26667000" />
       <workItem from="1651299068474" duration="10050000" />
-      <workItem from="1651311064925" duration="5516000" />
+      <workItem from="1651311064925" duration="17874000" />
+      <workItem from="1651384071513" duration="1025000" />
+      <workItem from="1651385152426" duration="1369000" />
+      <workItem from="1651386601927" duration="6458000" />
+      <workItem from="1651393789519" duration="8531000" />
+      <workItem from="1651404693457" duration="3278000" />
+      <workItem from="1651476017216" duration="638000" />
+      <workItem from="1651587870288" duration="2065000" />
+      <workItem from="1651930859386" duration="1009000" />
+      <workItem from="1651933215737" duration="5732000" />
+      <workItem from="1652076035621" duration="12460000" />
+      <workItem from="1652166810912" duration="3831000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1648378627632</created>
@@ -499,7 +510,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651248779867</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1651322390687</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1651322390687</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1651337630854</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1651337630854</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Merge branch 'master' of https://github.com/spray-dream/Python">
+      <created>1651476055100</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1651476055100</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,17 +644,25 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/013__py$018_Xpath.coverage" NAME="018-Xpath 覆盖结果" MODIFIED="1651323178248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/002_ndarray_py$003_.coverage" NAME="003-数据类型 覆盖结果" MODIFIED="1648374184539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据分析/numpy" />
     <SUITE FILE_PATH="coverage/004__py$004_.coverage" NAME="004-基本顺序表 覆盖结果" MODIFIED="1648294555223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法" />
     <SUITE FILE_PATH="coverage/001__py$002_class.coverage" NAME="002-class定位 覆盖结果" MODIFIED="1651148910917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/001__html$003_raise_assert.coverage" NAME="003-raise,assert 覆盖结果" MODIFIED="1647510356079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/senior/异常处理" />
     <SUITE FILE_PATH="coverage/006_CSS_Selector_py$012_iframe.coverage" NAME="012-iframe 覆盖结果" MODIFIED="1651248681579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/001_requests_py$001_requests.coverage" NAME="001-requests 覆盖结果" MODIFIED="1651934479579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/接口测试" />
+    <SUITE FILE_PATH="coverage/022_pytest_py$022_pytest.coverage" NAME="022-pytest 覆盖结果" MODIFIED="1651390759687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/025__py$001_requests.coverage" NAME="001-requests 覆盖结果" MODIFIED="1651931601567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/接口测试" />
     <SUITE FILE_PATH="coverage/001__html$009_.coverage" NAME="009-双链表 覆盖结果" MODIFIED="1647533493820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法" />
     <SUITE FILE_PATH="coverage/001__py$004_.coverage" NAME="004-响应时间差异 覆盖结果" MODIFIED="1651161771905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/013__py$014_radio.coverage" NAME="014-radio选择框 覆盖结果" MODIFIED="1651304925722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/003_API_py$tc0001.coverage" NAME="tc0001 覆盖结果" MODIFIED="1652170150215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/接口测试/测试用例" />
     <SUITE FILE_PATH="coverage/013__py$013_.coverage" NAME="013-窗口切换 覆盖结果" MODIFIED="1651300846626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/001_requests_py$003_API.coverage" NAME="003-处理API响应 覆盖结果" MODIFIED="1652105218199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/接口测试" />
     <SUITE FILE_PATH="coverage/006_CSS_Selector_py$007_CSS.coverage" NAME="007-CSS子元素 覆盖结果" MODIFIED="1651224023651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/006_CSS_Selector_py$006_CSS_Selector.coverage" NAME="006-CSS_Selector选择元素原理 覆盖结果" MODIFIED="1651220672107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/001_requests_py$002_API__1_.coverage" NAME="002-构建API请求 (1) 覆盖结果" MODIFIED="1652083893046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/接口测试" />
+    <SUITE FILE_PATH="coverage/003_API_py$004_requestscookie.coverage" NAME="004-requests库处理cookie 覆盖结果" MODIFIED="1652168310491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/接口测试" />
     <SUITE FILE_PATH="coverage/006_CSS_Selector_py$008_CSS.coverage" NAME="008-CSS属性选择 覆盖结果" MODIFIED="1651231381212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/006_CSS_Selector_py$011_.coverage" NAME="011-根据次序选择 覆盖结果" MODIFIED="1651242316858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/001__py$001_.coverage" NAME="001- 覆盖结果" MODIFIED="1651143129167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
@@ -634,12 +674,15 @@
     <SUITE FILE_PATH="coverage/006_CSS_Selector_py$010_CSS.coverage" NAME="010-CSS选择语法联合使用 覆盖结果" MODIFIED="1651235658731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/001__html$004_.coverage" NAME="004-删除有序数组中的重复项 覆盖结果" MODIFIED="1647511141796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法/leetcode" />
     <SUITE FILE_PATH="coverage/013__py$016_select.coverage" NAME="016-select下拉列表 覆盖结果" MODIFIED="1651309591347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
+    <SUITE FILE_PATH="coverage/003_API_py$api_0001__1_.coverage" NAME="api-0001 (1) 覆盖结果" MODIFIED="1652170639907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/接口测试/测试用例" />
     <SUITE FILE_PATH="coverage/013__py$017_.coverage" NAME="017-常用操作 覆盖结果" MODIFIED="1651321548631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/001__py$003_.coverage" NAME="003-标签名定位 覆盖结果" MODIFIED="1651155073913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/013__py$action_chains.coverage" NAME="action_chains 覆盖结果" MODIFIED="1651310078356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Python/Lib/site-packages/selenium/webdriver/common" />
     <SUITE FILE_PATH="coverage/001__py$005_.coverage" NAME="005-操控元素的方法 覆盖结果" MODIFIED="1651164471469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/web自动化测试" />
     <SUITE FILE_PATH="coverage/008__py$002___1_.coverage" NAME="002-参数配置 (1) 覆盖结果" MODIFIED="1650120855164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/app自动化测试" />
     <SUITE FILE_PATH="coverage/001__html$001_.coverage" NAME="001-按位异或 覆盖结果" MODIFIED="1647357648906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/计算机基础" />
+    <SUITE FILE_PATH="coverage/001_requests_py$002_url.coverage" NAME="002-构建url 覆盖结果" MODIFIED="1651938536452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/软件测试/接口测试" />
+    <SUITE FILE_PATH="coverage/001_requests_py$002_json.coverage" NAME="002-json模块 覆盖结果" MODIFIED="1652083219232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/senior/内置模块" />
     <SUITE FILE_PATH="coverage/001__html$008_.coverage" NAME="008-单链表 覆盖结果" MODIFIED="1647620745472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构与算法" />
     <SUITE FILE_PATH="coverage/004__py$002_ndarray.coverage" NAME="002-ndarray对象属性操作 覆盖结果" MODIFIED="1648306539150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/库/numpy" />
   </component>
